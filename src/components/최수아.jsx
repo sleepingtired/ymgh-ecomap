@@ -11,31 +11,12 @@ function 최수아() {
         ph="6.3"
         link="https://example.com"
       />
-
       <PlantMarker
-        position={[430, 800]}
+        position={[0, 0]}
         image="https://사진주소"
-        name="은행나무"
-        humidity="79"
-        ph="6.5"
-        link="https://example.com"
-      />
-
-      <PlantMarker
-        position={[620, 950]}
-        image="https://사진주소"
-        name="벚나무"
-        humidity="80"
-        ph="6.4"
-        link="https://example.com"
-      />
-
-      <PlantMarker
-        position={[700, 1200]}
-        image="https://사진주소"
-        name="소나무"
-        humidity="83"
-        ph="6.2"
+        name="000"
+        humidity="00"
+        ph="00"
         link="https://example.com"
       />
     </>

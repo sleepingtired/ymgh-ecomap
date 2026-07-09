@@ -1,12 +1,15 @@
 import {
   MapContainer,
-  ImageOverlay
+  ImageOverlay,
+  Marker,
+  Popup
 } from "react-leaflet"
 
 import 강나윤 from "./components/강나윤"
 import 박혜은 from "./components/박혜은"
 import 최수아 from "./components/최수아"
 import 피경림 from "./components/피경림"
+
 
 import L from "leaflet"
 import "leaflet/dist/leaflet.css"
@@ -18,7 +21,7 @@ const bounds = [
   [987, 2000]
 ]
 
-//53번째 줄 참고해 마커 표시하는 건데 나중에 그물망 형태로 바꾸자 -최수아
+//53번째 줄 참고해 마커 표시하는 건데 나중에 그물망 형태로 바꾸자 -수아
 
 function App() {
   return (
