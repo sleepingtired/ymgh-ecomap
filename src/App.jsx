@@ -1,9 +1,12 @@
 import {
   MapContainer,
-  ImageOverlay,
-  Marker,
-  Popup
+  ImageOverlay
 } from "react-leaflet"
+
+import 강나윤 from "./components/강나윤"
+import 박혜은 from "./components/박혜은"
+import 최수아 from "./components/최수아"
+import 피경림 from "./components/피경림"
 
 import L from "leaflet"
 import "leaflet/dist/leaflet.css"
@@ -49,39 +52,10 @@ function App() {
           url={mapImage}
           bounds={bounds}
         />
-
-        <Marker position={[500, 1000]}>
-          <Popup>
-            <div
-              style={{
-                width: "220px"
-              }}
-            >
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQUiM2T-Ld2RgbhugiMudtJ8yL6RKe_knavz4rH1wJCDzUIL1hk50y5YhlqTioyUvJyswlJDhT9BOKA9UOIj0XG9x9llXK40kwP1w40E&s=10"
-                alt="생물"
-                style={{
-                  width: "100%",
-                  borderRadius: "10px"
-                }}
-              />
-
-              <h2>잣나무</h2>
-
-              <p> 온도: 24℃</p>
-              <p> 습도: 81%</p>
-              <p> pH: 6.3</p>
-
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                자세히 보기
-              </a>
-            </div>
-          </Popup>
-        </Marker>
+        <최수아 />
+        <박혜은 />
+        <강나윤 />
+        <피경림 />
       </MapContainer>
     </div>
   )
